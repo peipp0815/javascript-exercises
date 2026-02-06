@@ -23,12 +23,12 @@ const power = function (a, b) {
 };
 
 const factorial = function (a) {
-  let sum = 1;
+  let product = 1;
   while (a > 0) {
-    sum *= a;
+    product *= a;
     a--;
   }
-  return sum;
+  return product;
 };
 
 // Do not edit below this line
